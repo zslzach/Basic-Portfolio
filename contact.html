@@ -5,29 +5,52 @@
     <meta charset="UTF-8">
     <title>Zach Lee Portfolio</title>
     <link rel="stylesheet" type="text/css" href="rec_style.css">
-    
+
 </head>
 
-<body background="assets/images/dynamic-style.png"></body>
-    <div id="container">
-        <header>
-            <div class="name">
-                <h1>Zach Lee</h1>
-            </div>
-            <a href="index.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="Portfolio.html">Portfolio</a>   
-            
-        </header>
-        <div>
-            <div class="content"><h3>Contact</h3></div>
-                <section id="name2">Name</section>
-                <section id="Email">Email</section>
-                <section id="Message">Message</section>
 
-        <hr>
+<div id="container">
+    <header>
+        <div class="name">
+            <h1>Zach Lee</h1>
+        </div>
+        <a href="index.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="Portfolio.html">Portfolio</a>
+
+    </header>
+
+    <body background="assets/images/dynamic-style.png"></body>
+
+    <div>
+        <div class="content">
+            <h3>Contact</h3>
         </div>
 
-        <footer>
-            <h6>Copyright @</h6>
-        </footer>
+        <hr>
+
+        <div class="container">
+            <form action="action_page.php">
+                <div class="form-group">
+                    <label for="contact_name">Name</label><br>
+                    <input type="text" id="contact_name" name="contact_name"><br>
+                </div>
+
+                <div class="form-group">
+
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email"><br>
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="Message"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+<footer>
+    <h6>Copyright @</h6>
+</footer>

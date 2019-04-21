@@ -1,0 +1,213 @@
+*{
+box-sizing: border-box;
+align-self: baseline;
+margin-right: 10px;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    text-align: right;
+    border-bottom: 2px #cccccc;
+    border-bottom-style: solid;
+    display: flex;
+    color: blue;
+    
+}
+
+.name {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 240px;
+    color: #ffffff;
+    margin-right: 400px; 
+    height: 100%;
+}
+    
+#fixed {
+    background-color: #4aaaa5;
+    width: 20%;
+    height: 25%;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+body{
+    margin: auto;
+    width: 800px;
+    
+}
+
+.main {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #dddddd;
+    border: 5px;
+    
+}
+
+h2 {
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    color: #4aaaa5;
+
+}
+
+h3 {
+    padding: 10px;
+}
+
+#image {
+    padding: 20px;
+    float: left;
+}
+
+p {
+    padding: 10px;
+    
+}
+
+footer { 
+    background-color: #666666;
+    text-align: center;
+    clear: both;
+    height: 5%;
+    padding: 10px;
+    border-top: 5px #4aaaa5;
+    border-top-style: solid;
+    
+}
+
+footer>span {
+    width: 33%;
+    
+    display: inline-block;
+}
+
+#name {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 260px;
+    color: #ffffff;
+    margin-left: 400px; 
+    display: inline-block;
+}
+
+#container {
+    background: #ffffff;
+    margin: auto;
+}
+
+.content {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+#img1 {
+    
+    background-color: #ffffff;
+    float: left;
+    z-index: 1;
+}
+
+#img2 {
+    background-color: #ffffff;
+
+    
+
+}
+
+#img3 {
+    
+    background-color: #ffffff;
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+    
+}
+
+#img4 {
+    background-color: #ffffff;
+    
+}
+
+#img5 {
+    background-color: #ffffff;
+    clear: both;
+    width: 25%;
+    padding-left: 10px;
+}
+
+#Message {
+    width: 720px;
+    margin: 10px;
+    height: 150px;
+    
+}
+
+.container {
+   display: inline;
+   margin-left: 10px;
+}   
+
+label {
+    padding: 10px;
+    width: 700px;
+    margin-left: 10px;
+}
+
+#Abstract {
+    z-index:3;
+    display: inline-block;
+    background-color: #4aaaa5
+    
+}
+
+#Cats {
+    z-index:3;
+    display: inline-block;
+    background-color: #4aaaa5
+    
+}
+
+#City {
+    z-index:3;
+    display: inline-block;
+    background-color: #4aaaa5
+    
+}
+
+#Music {
+    z-index:3;
+    display: inline-block;
+    background-color: #4aaaa5
+   
+}
+
+#DJ {
+    z-index:3;
+    display: inline-block;
+    background-color: #4aaaa5
+    
+}
+
+button {
+    width: 50px;
+    margin: 20px;
+}
+
+.form-group {
+
+    margin: 10px;
+    width: 720px;
+}
+
+.form-group > textarea {
+    display: block;
+    width: 720px;
+    height: 150px;
+}
